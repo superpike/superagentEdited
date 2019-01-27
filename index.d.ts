@@ -117,7 +117,7 @@ declare namespace request {
         text: string;
         type: string;
         unauthorized: boolean;
-        xhr: XMLHttpRequest;
+        // xhr: XMLHttpRequest;
     }
 
     interface Request extends Promise<Response> {
